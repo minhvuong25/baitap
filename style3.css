@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    background-color: white;
+    width: 100%;
+}
+.menu {
+    display: flex;
+}
+.menu ul {
+    list-style-type: none;
+}
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper{
+    text-align: right;
+}
+.menu ul li {
+    display: inline;
+    padding: 10px;
+}
+.menu ul li a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.order {
+    background-image: url(./amazing/nen.jpg);
+}
+
+.select-food img{
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.select-food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-food {
+    width: 450px;
+    height: 130px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    margin: 15px;
+}
+.select-food input{
+    width: 300px;
+    height: 25px;
+    border: 0px;
+    border-radius: 5px;
+}
+.delivery-details h5 {
+    padding: 3px;
+}
+.delivery-details input {
+    width: 400px;
+    height: 25px;
+    border: 0px;
+    border-radius: 4px;
+    margin: 3px;
+}
+.delivery-details button {
+    background-color: lightcoral;
+    border: 0;
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+}
+.delivery-details {
+    align-items: center;
+    justify-content: center;
+}
+.delivery-details {
+    width: 450px;
+    height: 430px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+.delivery-details button {
+    margin-left: 5px;
+    cursor: pointer;
+}
+.order {
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    padding: 50px;
+}
+.see-all-food{
+    text-align: center;
+    padding: 15px;
+}
+.see-all-food a{
+    color: tomato;
+    text-decoration: none;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon a {
+    padding: 15px;
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.footer
+{
+    width: auto;
+    height: 40%;
+    text-align: center;
+}
+.footer-link
+{
+    font-size: 20px;
+    margin-top: 50px;
+   padding-bottom: 15px;
+}
+.footer-link .fab
+{
+margin : 0 20px;
+}
+.font
+{
+    text-align: center;
+}
