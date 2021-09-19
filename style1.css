@@ -1,0 +1,119 @@
+
+body{
+    background: #fff;
+}
+header{
+position:fixed ;
+z-index: 1;
+width: 100%;
+top: 0;
+align-items: center;
+display: flex;
+justify-content:space-between;
+background: cornsilk;
+height: 80px;
+}
+header.logo{
+    margin-left: 80px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: crimson;
+}
+header.navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.luachon{
+    font-size: 1.3rem;
+    margin-left: 2.5rem;
+    text-decoration: none;
+}
+.a1{
+    
+    text-decoration: none;   
+    color:red;
+}
+.a2{
+    margin-left: 30px;
+    text-decoration: none;   
+    color:red;
+}
+.a3{
+    margin-left: 30px;
+    text-decoration: none;
+    color:red;   
+}
+.a4{
+    margin-left: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color:red;   
+} 
+.hinh1{
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.noidung{
+    margin-top: 80px;
+    margin-left: 43%;
+    margin-bottom: 40px;
+}   
+.headerbt{
+    width: 100%;
+    bottom: 0;
+    background:cornsilk;
+    position:fixed;
+    height: 50px;
+    content: center;
+}
+.headerbt
+{
+    text-align: center;
+}
+
+.content{
+    padding: 20px 120px;
+}
+.content .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.content .box-container .box{
+    flex: 1 1 25rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.content .box-container .box .image{
+    height: 100%;
+    object-fit: cover; 
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.content .box-container .box .content-image{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+}
+.content .box-container .box .content-image h2{
+    position: absolute;
+    bottom: 0;
+    left: 175px;
+}
+footer{
+    text-align: center;
+}
+.footer-content{
+    font-size: 20px;
+    color: #666;  
+}
+
+.font{
+    color: black;
+}
